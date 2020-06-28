@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="./styles/styles.css"></link>
+        <h1> Are you a pow or a wow? </h1>
+
+
+    </head>
+    <body>  
+        <script text="text/javascript" src = "./node_modules/jquery/dist/jquery.min.js"></script>
+        <form method="post" id="login1" action="/submit">
+             <div class="container">
+              <label for="uname"><b>Username</b></label>
+              <input type="text" placeholder="Enter Username" name="uname" required>
+              <br>
+              <label for="psw"><b>Password</b></label>
+              <input type="password" placeholder="Enter Password" name="psw" required>
+              <br>
+              <button type="submit" id="button1">Login</button>
+              <label>
+                <input type="checkbox" checked="checked" name="remember"> Remember me
+              </label>
+            </div>
+              <button type="button" class="cancelbtn">Signup</button>
+              <span class="psw"> <a href="#">Forgot password?</a></span>
+          </form>
+        <script text="text/javascript" src = "./app.js"></script>
+        
+    </body>
+</html>

@@ -1,0 +1,16 @@
+{
+  "name": "powwow",
+  "version": "1.0.0",
+  "description": "platform for learning and teaching ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ali Hamidizadeh",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jquery": "^3.5.0",
+    "mysql": "^2.18.1"
+  }
+}
